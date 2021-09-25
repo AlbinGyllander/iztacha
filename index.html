@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>Iztacha Home page</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<div id="marquee" class="marquee">
+	<p class="roboto" >This is a website soley created to showcase my ability to design and develop a simple web page. Learn more about me at <a href="https://www.linkedin.com/in/albingyllander/">LinkedIn</a></p>
+	<button class="close" onclick="document.getElementById('marquee').style.display='none'" >X</button>
+</div>
+<header class="header">
+	<div>
+		<img class="logo" src="resources/logo.svg">
+		<p class="roboto logo-text">Iztacha</p>
+	</div>
+	<div id="created_by">
+		<p class="plain_text roboto">Created by Albin Gyllander</p>
+	</div>
+
+</header>
+<body>
+	<div data-aos="fade-up" class="index_intro">
+		<img id="front_img_mobile" src="resources/illustration.png">
+		<div>
+			<p class="roboto main_title">Ecommerce redefined</p>
+			<p class="index_intro_text roboto plain_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+			<button class="main_button roboto">Get started</button>
+		</div>
+		<img id="front_img_desk" src="resources/illustration.png">
+	</div>
+	<div class="important_number">
+		<div class="important_number_text">
+			<p class="roboto main_title text_white">Important numbers</p>
+			<button id="important_number_btn_desktop" class="roboto main_button">Get started</button>
+
+		</div>
+		<div class="important_number_number roboto">
+			<div>
+				<p>Total customers using our plattform</p>
+				<p class="count_value" akhi="345127">0</p>
+			</div>
+			<div>
+				<p>Total sales on our plattform</p>
+				<p class="count_value" akhi="345123987">0</p>
+			</div>
+			<div>
+				<p>Total number of clients</p>
+				<p class="count_value" akhi="10000">0</p>
+
+			</div>
+		</div>
+		<button id="important_number_btn_mobile" class="roboto main_button">Get started</button>
+	</div>
+	<div class="features">
+		<p class="main_title roboto">New era of ecommerce</p>
+		<p class="plain_text roboto ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+		<div class="list_features">
+			<div  data-aos="flip-up" data-aos-delay="10" >
+				<img src="resources/calendar-check-fill.svg">
+				<p class="plain_text roboto">Retail commerce reborn</p>
+				<p class="small_text roboto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galle.</p>
+			</div>
+			<div  data-aos="flip-up" data-aos-delay="200" >
+				<img src="resources/award-fill.svg">
+				<p class="plain_text roboto">Retail commerce reborn</p>
+				<p class="small_text roboto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galle.</p>
+			</div>
+			<div  data-aos="flip-up" data-aos-delay="400" >
+				<img src="resources/basket3-fill.svg">
+				<p class="plain_text roboto">Retail commerce reborn</p>
+				<p class="small_text roboto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galle.</p>
+			</div>
+		</div>
+		<br>
+		<button class="main_button">Read more</button>
+	</div>
+	<div data-aos="fade-up" class="made_for_devs-con">
+		<div class="made_for_devs">
+			<p class="main_title roboto">Made for developers</p>
+			<div class="boxes">
+				<div  data-aos="fade-up" data-aos-delay="20"  class="white-box">
+					<img style="width: inherit; height: inherit;" src="resources/chart.jpeg">
+				</div>
+				<div data-aos="fade-up" data-aos-delay="200" class="black-box roboto">
+					<div class="code_line">
+						<span class="red">import</span>
+						<span class="white">requests</span>
+					</div>
+					<div class="code_line">
+						<span class="red">import</span>
+						<span class="white">json</span>
+					</div>
+					<br>
+					<div class="code_line">
+						<span class="green">api_key</span>
+						<span class="white">=</span>
+						<span class="yellow">"df5h3hf8eu58hyu4g38"</span>
+					</div>
+					<div class="code_line">
+						<span class="green">host</span>
+						<span class="white">=</span>
+						<span class="yellow">"https://www.api_key.com/iztacha/api"</span>
+					</div>
+					<br>
+					<div class="code_line">
+						<span class="green">r</span>
+						<span class="white">=</span>
+						<span style="margin:0;" class="white">requests.</span>
+						<span style="margin:0" class="blue">post</span>
+						<span class="white">(host,api_key,header)</span>
+					</div>
+				</div>				
+			</div>
+
+			<p class="roboto plain_text" style="color:var(--dark)">Go to our documentation --></p>	
+		</div>
+	</div>
+</body>
+<footer data-aos="fade-up" class="roboto">
+	<div class="goodbye">
+		<img src="resources/bgr-gradient.svg">
+		
+		<div>
+			<p class="roboto main_title">Get in touch to start your new enhanced ecommerce journey!</p>
+			<button class="secondary_button">Get in touch</button>
+		</div>
+		
+	</div>
+	<div class="footer-con">
+		<div  data-aos="fade-up" data-aos-delay="0" class="logo-div">
+			<img style="margin-right: 20px;" src="resources/logo.svg">
+			<p class="roboto logo-text">Iztacha</p>		
+		</div>
+		<p  data-aos="fade-up" data-aos-delay="0" style="opacity: 1;" class="small_text">Contact</p>
+		<p  data-aos="fade-up" data-aos-delay="50" style="opacity: 1;" class="small_text">Press</p>
+		<p  data-aos="fade-up" data-aos-delay="100" style="opacity: 1;" class="small_text">Pricing</p>
+		<p  data-aos="fade-up" data-aos-delay="150" style="opacity: 0.4; margin-left: 20px;" class="small_text">Privacy policy</p>		
+	</div>
+
+
+</footer>
+<script type="text/javascript">
+	
+	const counters = document.querySelectorAll('.count_value');
+	const speed = 200;
+
+	counters.forEach( counter => {
+	   const animate = () => {
+	      const value = +counter.getAttribute('akhi');
+	      const data = +counter.innerText;
+	     
+	      const time = value / speed;
+	     if(data < value) {
+	          counter.innerText = Math.ceil(data + time);
+	          setTimeout(animate, 1);
+	        }else{
+	          counter.innerText = value;
+	        }
+	     
+	   }
+	   
+	   animate();
+	});
+
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>
+
